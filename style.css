@@ -4,6 +4,7 @@
     width: 960px;
     height: 960px;
     flex-direction: row;
+    border: 10px solid darkgrey;
 }
 .divRow {
     display: flex;
@@ -12,8 +13,12 @@
 }
 .pola {
     flex: 1;
-    border: 0px;
     margin: 0px;
-    
     background-color: rgb(255, 255, 255);
+}
+
+.polaColor {
+    flex: 1;
+    margin: 0px;
+    background-color: black;
 }
